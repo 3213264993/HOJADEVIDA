@@ -1,0 +1,83 @@
+body {
+
+    background-color:aquamarine;
+  
+  }
+nav {
+    background-color: #faf1f1; 
+  }
+  
+  nav ul {
+    list-style: none; 
+    padding: 2;
+    margin: 0;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    line-height: 4px;
+    margin: 1px;
+}
+
+  
+  nav ul li a {
+    display: block;
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+    text-decoration: none; 
+    text-shadow: 2px 2px 2px rgb(241, 119, 235);
+    padding: 10px 60px; 
+  }
+  
+  .foto {
+    margin-top: 20px; /
+  }
+  
+  p{
+    font-family: serif;
+    text-align: justify;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+
+   
+  h1{
+    line-height: 60px;
+    color:black  ;
+    text-align: center;
+  }
+
+  footer{
+    line-height: 60px;
+    color:black  ;
+    text-align: center;
+  }
+
+  .esquina-superior-izquierda {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; /
+  }
+  
+  .centro {
+    position: absolute; 
+    top: 64%; /* Ubica el borde superior de la imagen en el 50% del contenedor */
+    left: 30%; /* Ubica el borde izquierdo de la imagen en el 50% del contenedor */
+    transform: translate(-50%, -50%); /* Centra la imagen exactamente en el medio */
+  }
+
+  .pie-de-pagina {
+    position: absolute; /* Fija la posición */
+    bottom: -3%; /* Coloca el footer al fondo del contenedor */
+    width: 60%; /* Ocupa todo el ancho del contenedor */
+  }
+  
+  li a:hover{
+    padding: 10px;
+    color: rgb(195, 76, 192);
+    transition: 5s;
+    border: 1px solid;
+    width: auto;
+  }
+  
