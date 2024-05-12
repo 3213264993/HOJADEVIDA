@@ -1,3 +1,113 @@
 body {
-    background-color: rgb(207, 162, 233);
+    background-color: rgb(157, 245, 216);
  }
+
+ nav {
+    background-color: #f8f5f5; 
+  }
+  
+  nav ul {
+    list-style: none; 
+    padding: 2;
+    margin: 0;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    line-height: 5px;
+    margin: 1px;
+}
+
+  
+  nav ul li a {
+    display: block;
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+    text-decoration: none; 
+    text-shadow: 2px 2px 2px rgb(241, 119, 235);
+    padding: 10px 60px; 
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+  body {
+
+    background-color:rgb(146, 243, 204);
+  
+  }
+nav {
+  background-color: rgb(255, 255, 255);
+ }
+
+  
+  nav ul {
+    list-style: none; 
+    padding: 2;
+    margin: 0;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    line-height: 1px;
+    margin: 1px;
+}
+
+  
+  nav ul li a {
+    display: block;
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+    text-decoration: none; 
+    text-shadow: 5px 5px 5px rgb(211, 128, 211);
+    padding: 10px 60px; 
+    border: 1px solid rgb(22, 22, 22);
+  }
+  
+  
+  
+  p{
+    font-family: serif;
+    text-align: justify;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+
+   
+  h2{
+    line-height: 30px;
+    color:black  ;
+  }
+
+  footer{
+    line-height: 60px;
+    color:black  ;
+    text-align: center;
+  }
+
+  .esquina-superior-izquierda {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; /
+  }
+  
+  .centro {
+    position: absolute; 
+    top: 64%; /* Ubica el borde superior de la imagen en el 50% del contenedor */
+    left: 30%; /* Ubica el borde izquierdo de la imagen en el 50% del contenedor */
+    transform: translate(-50%, -50%); /* Centra la imagen exactamente en el medio */
+  }
+
+  .pie-de-pagina {
+    position: absolute; /* Fija la posición */
+    bottom: -3%; /* Coloca el footer al fondo del contenedor */
+    width: 60%; /* Ocupa todo el ancho del contenedor */
+  }
+  
+  li a:hover{
+    padding: 10px;
+    color: rgb(255, 173, 252);
+    transition: 5s;
+    border: 1px solid;
+    width: auto;
+  }
+  
