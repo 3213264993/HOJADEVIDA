@@ -68,8 +68,8 @@ li {
 
   .pie-de-pagina {
     position: absolute; 
-    bottom: -3%; 
-    width: 60%; 
+    bottom: -35%; 
+    width: 80%; 
   }
   
   li a:hover{

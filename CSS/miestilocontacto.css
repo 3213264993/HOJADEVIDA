@@ -5,7 +5,7 @@ body {
     }
 
     nav {
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(145, 220, 255);
        }
       
         
@@ -75,6 +75,16 @@ body {
           }
 
           .whatsapp-icon {
-            width: 24px; 
-            height: 24px; 
+            width: 45px; 
+            height: 45px; 
+        }
+
+        .facebook-icon {
+            width: 45px; 
+            height: 45px; 
+        }
+
+        .instagram-icon {
+            width: 45px; 
+            height: 45px; 
         }
