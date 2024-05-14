@@ -73,3 +73,8 @@ body {
             font-family:  Helvetica;
             margin: 10px 7px;
           }
+
+          .whatsapp-icon {
+            width: 24px; 
+            height: 24px; 
+        }
