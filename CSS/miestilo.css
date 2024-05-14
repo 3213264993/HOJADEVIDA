@@ -1,6 +1,6 @@
 body {
 
-    background-color:rgb(146, 243, 204);
+  background-color:rgb(126, 214, 241);
   
   }
 nav {
@@ -27,7 +27,7 @@ nav {
     color: rgb(8, 8, 8);
     text-transform: uppercase;
     text-decoration: none; 
-    text-shadow: 5px 5px 5px rgb(155, 144, 144);
+    text-shadow: 5px 5px 5px rgb(255, 81, 183);
     padding: 10px 60px; 
     border: 1px solid rgb(22, 22, 22);
   }
