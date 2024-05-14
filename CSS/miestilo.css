@@ -60,20 +60,20 @@ nav {
   .esquina-superior-izquierda {
     position: absolute; 
     top: 10px; 
-    left: 10px; /
+    left: 10px; 
   }
   
   .centro {
     position: absolute; 
-    top: 64%; /* Ubica el borde superior de la imagen en el 50% del contenedor */
-    left: 30%; /* Ubica el borde izquierdo de la imagen en el 50% del contenedor */
-    transform: translate(-50%, -50%); /* Centra la imagen exactamente en el medio */
+    top: 64%; 
+    left: 30%;
+    transform: translate(-50%, -50%); 
   }
 
   .pie-de-pagina {
-    position: absolute; /* Fija la posición */
-    bottom: -3%; /* Coloca el footer al fondo del contenedor */
-    width: 60%; /* Ocupa todo el ancho del contenedor */
+    position: absolute; 
+    bottom: -3%;
+    width: 60%; 
   }
   
   li a:hover{
