@@ -3,3 +3,36 @@ body {
     background-color:rgb(126, 214, 241);
     
     }
+
+    nav {
+        background-color: rgb(255, 255, 255);
+       }
+      
+        
+        nav ul {
+          list-style: none; 
+          padding: 2;
+          margin: 0;
+        }
+        
+        
+        nav ul li{
+          display: inline-block;
+          line-height: 4px;
+          margin: 1px;
+      }
+      
+        
+        nav ul li a {
+          display: block;
+          color: rgb(8, 8, 8);
+          text-transform: uppercase;
+          text-decoration: none; 
+          text-shadow: 5px 5px 5px rgb(255, 81, 183);
+          padding: 10px 60px; 
+          border: 1px solid rgb(22, 22, 22);
+        }
+        
+        .foto {
+          margin-top: 20px; /
+        }
